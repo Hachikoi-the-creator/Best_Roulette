@@ -12,10 +12,10 @@ pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode([900, 600])
 
-arrow = pygame.image.load("my_arrow.png")
+arrow = pygame.image.load("img/my_arrow.png")
 arrow_smol = pygame.transform.scale(arrow,(90,90))
 
-padoru = pygame.image.load("circle.png")
+padoru = pygame.image.load("img/circle.png")
 # padoru_rect = padoru.get_rect(center = (300, 300)), seems like no problem to remove
 angle = 0
 
