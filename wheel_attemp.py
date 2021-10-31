@@ -34,7 +34,7 @@ while True:
 	
 	if angle < rnd_stop_angle:#While the angle is lower than 
 		angle += 4	#The bigger, the faster it rotates
-	screen.fill((60,100,90))#Purple
+	screen.fill((60,0,90))#Purple
 	padoru_rotated, padoru_rotated_rect = rotate(padoru, angle)
 
 	screen.blit(padoru_rotated, padoru_rotated_rect)
